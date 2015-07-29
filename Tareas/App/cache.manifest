@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+js/tareas.js
+css/tareas.css
+img/bg.jpg
+js/framework7.min.js
+css/framework7.ios.min.css
+
+NETWORK:
+*

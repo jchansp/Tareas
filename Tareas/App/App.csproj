@@ -66,7 +66,7 @@
     <Content Include="css\framework7.material.colors.min.css" />
     <Content Include="css\framework7.material.min.css" />
     <Content Include="css\framework7.material.rtl.min.css" />
-    <Content Include="css\todo7.css" />
+    <Content Include="css\tareas.css" />
     <Content Include="img\bg.jpg" />
     <Content Include="img\icon-114.png" />
     <Content Include="img\icon-120.png" />
@@ -77,8 +77,9 @@
     <Content Include="img\icon-76.png" />
     <Content Include="index.html" />
     <Content Include="js\framework7.min.js" />
-    <Content Include="js\todo7.js" />
-    <Content Include="manifest.php" />
+    <Content Include="js\parse-1.5.0.min.js" />
+    <Content Include="js\tareas.js" />
+    <None Include="cache.manifest" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="js\framework7.min.js.map" />
