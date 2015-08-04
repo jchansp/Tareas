@@ -37,59 +37,59 @@ html.ios .page-content {
 i.icon-plus {
   color: #fff;
 }
-.todo-items-list {
+.items-list {
   margin: 0;
   color: #fff;
   font-weight: 300;
 }
-.todo-items-list ul {
+.items-list ul {
   background: none;
 }
-.todo-items-list ul:after,
-.todo-items-list ul:before {
+.items-list ul:after,
+.items-list ul:before {
   display: none;
 }
-.todo-items-list .item-title {
+.items-list .item-title {
   font-size: 18px;
 }
-.todo-items-list .swipeout-content {
+.items-list .swipeout-content {
   background: none;
 }
-.todo-items-list .item-inner {
+.items-list .item-inner {
   padding-top: 18px;
   padding-bottom: 16px;
 }
-.todo-items-list .item-inner:after {
+.items-list .item-inner:after {
   background: rgba(255, 255, 255, 0.2);
 }
-.todo-items-list .label-checkbox.active-state {
+.items-list .label-checkbox.active-state {
   background: rgba(255, 255, 255, 0.2);
 }
-.todo-items-list .item-content {
+.items-list .item-content {
   border-left: 5px solid;
 }
-.todo-items-list li[data-color="orange"] .item-content {
+.items-list li[data-color="orange"] .item-content {
   border-left-color: #ff8400;
 }
-.todo-items-list li[data-color="blue"] .item-content {
+.items-list li[data-color="blue"] .item-content {
   border-left-color: #089efe;
 }
-.todo-items-list li[data-color="green"] .item-content {
+.items-list li[data-color="green"] .item-content {
   border-left-color: #2df523;
 }
-.todo-items-list li[data-color="white"] .item-content {
+.items-list li[data-color="white"] .item-content {
   border-left-color: #fff;
 }
-.todo-items-list li[data-color="yellow"] .item-content {
+.items-list li[data-color="yellow"] .item-content {
   border-left-color: #eaff00;
 }
-.todo-items-list li[data-color="pink"] .item-content {
+.items-list li[data-color="pink"] .item-content {
   border-left-color: #cc0442;
 }
-.todo-items-list li[data-color="purple"] .item-content {
+.items-list li[data-color="purple"] .item-content {
   border-left-color: #ff00f0;
 }
-.todo-items-list li[data-color="cyan"] .item-content {
+.items-list li[data-color="cyan"] .item-content {
   border-left-color: #00fff6;
 }
 .popup {

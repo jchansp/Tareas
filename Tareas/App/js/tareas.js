@@ -65,14 +65,14 @@ var tareaTemplate = Template7.compile(tareaTemplateSource);
 
 function initialize() {
     var renderedList = tareaTemplate(tareas);
-    $$(".todo-items-list").html(renderedList);
+    $$(".items-list").html(renderedList);
 }
 
 // Build HTML on App load
 initialize();
 
 // Mark checked
-$$(".todo-items-list").on("change", "input", function() {
+$$(".items-list").on("change", "input", function() {
     var input = $$(this);
     var item = input.parents("li");
     var checked = input[0].checked;
@@ -106,7 +106,7 @@ $$(".todo-items-list").on("change", "input", function() {
 });
 
 // Delete item
-$$(".todo-items-list").on("delete", ".swipeout", function() {
+$$(".items-list").on("delete", ".swipeout", function() {
     var objectId = $$(this).attr("data-objectId"); // * 1;
     var index;
     for (var i = 0; i < tareas.length; i++) {
